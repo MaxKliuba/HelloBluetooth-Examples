@@ -1,15 +1,15 @@
 # HelloBluetooth - Examples
-Приклади для застосунку [HelloBluetooth]()
+Приклади для роботи із застосунком [HelloBluetooth]()
 
 ## Опис
 Даний застосунок дозволяє створювати та налаштовувати інтерфейс користувача для взаємодії із пристроями на платформі Arduino по Bluetooth. 
 Щоб реалізувати роботу по Bluetooth зі сторони Arduino варто використовувати модулі HC-05, HC-06 та інші сумісні
 
 ## Схема підключення
-Дані Bluetooth-модулі можна підключати до апаратного Serial:  
+Дані Bluetooth-модулі можна підключати до апаратного ```Serial```:  
 ![SERIAL_TYPE](/Images/serial_type.png)    
 
-Також є можливість емулювати програмний ```Serial``` за допомогою стандартної бібліотеки ```SoftwareSerial.h```. 
+Також є можливість реалізувати програмний ```Serial``` за допомогою стандартної бібліотеки [SoftwareSerial](https://docs.arduino.cc/learn/built-in-libraries/software-serial). 
 При такому типі з'єднання модуль можна під'єднати до будь-яких двох цифрових пінів Arduino, які додатково потрібно зазначити у коді програми:  
 ```c++
 #include <SoftwareSerial.h>
@@ -26,7 +26,7 @@ void setup() {
 }
 
 void loop() {
-	// TODO
+  // TODO
 }
 ```  
 
@@ -39,5 +39,5 @@ void loop() {
 * [AsyncSerialExample](/Examples/AsyncSerialExample)
 
 ## Додатково
-[HelloBluetooth]()
-[Бібліотеки](/../../Libraries)
+* Застосунок [HelloBluetooth]()
+* [Бібліотеки](/Libraries)

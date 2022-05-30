@@ -8,12 +8,12 @@
 
 ## Контролер
 Відскануйте за допомогою застосунку QR-код для створення контролера із необхідними налаштуваннями:  
-![BASE](/../../Images/bluetooth_monitor_controller.jpg) 
+![BASE](/Images/bluetooth_monitor_controller.jpg) 
 
 ## Схема підключення
 Підключення до апаратного ```Serial```:  
-![SERIAL_TYPE](/../../Images/softserial_type.png)  
+![SERIAL_TYPE](/Images/softserial_type.png)  
 
 ## Додатково
-[HelloBluetooth]()
-[Бібліотеки](/../../Libraries)
+* Застосунок [HelloBluetooth]()
+* [Бібліотеки](/Libraries)
