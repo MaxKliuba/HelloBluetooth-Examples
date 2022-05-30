@@ -1,21 +1,17 @@
 # AsyhcSerialExample
-Приклад асинхронного читання послідовного порту
+Приклад асинхронного читання даних з послідовного порту
 
 ## Опис
 Реалізовано за допомогою бібліотеки [AsyncStream](https://github.com/GyverLibs/AsyncStream)
 
 ## Схема підключення
 Підключення до апаратного ```Serial```:  
-```c++
-#define SERIAL_TYPE 0
-```  
-![SERIAL_TYPE](/Images/base_example_serial.png)  
+
+![SERIAL_TYPE](/Images/serial_type.png)  
 
 Підключення до програмного ```SoftwareSerial```:  
-```c++
-#define SERIAL_TYPE 1
-```  
-![SERIAL_TYPE](/Images/base_example_softserial.png) 
+ 
+![SERIAL_TYPE](/Images/softserial_type.png) 
 
 ## Додатково
 * Застосунок [HelloBluetooth]()

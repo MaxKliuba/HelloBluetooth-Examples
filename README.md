@@ -33,9 +33,9 @@ void loop() {
 ![SOFTSERIAL_TYPE](/Images/softserial_type.png)  
 
 ## Приклади
-* [BluetoothMonitor](/Examples/BluetoothMonitor)
 * [BaseExample](/Examples/BaseExample)
 * [AdvancedExample](/Examples/AdvancedExample)
+* [BluetoothMonitor](/Examples/BluetoothMonitor)
 * [AsyncSerialExample](/Examples/AsyncSerialExample)
 
 ## Додатково
