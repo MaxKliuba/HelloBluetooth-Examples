@@ -9,7 +9,7 @@
 Дані Bluetooth-модулі можна підключати до апаратного ```Serial```:  
 ![SERIAL_TYPE](/Images/serial_type.png)    
 
-Також є можливість реалізувати програмний ```Serial``` за допомогою стандартної бібліотеки [SoftwareSerial](https://docs.arduino.cc/learn/built-in-libraries/software-serial). 
+Також є можливість реалізувати програмний ```SoftwareSerial``` за допомогою стандартної бібліотеки [SoftwareSerial](https://docs.arduino.cc/learn/built-in-libraries/software-serial). 
 При такому типі з'єднання модуль можна під'єднати до будь-яких двох цифрових пінів Arduino, які додатково потрібно зазначити у коді програми:  
 ```c++
 #include <SoftwareSerial.h>

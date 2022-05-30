@@ -12,7 +12,7 @@
 ![BASE](/Images/bluetooth_monitor_controller.jpg) 
 
 ## Схема підключення
-Підключення до програмного ```SoftSerial```:  
+Підключення до програмного ```SoftwareSerial```:  
 
 ![SERIAL_TYPE](/Images/softserial_type.png)  
 
